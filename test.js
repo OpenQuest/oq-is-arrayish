@@ -43,6 +43,10 @@ describe('isArrayish test', function() {
             1: 'b',
             2: 12
         })).to.be.true;
+        expect(isArrayish({
+            length: 3,
+            2: 12
+        })).to.be.true;
     });
 
     it('should check values are not object', function() {
@@ -60,6 +64,12 @@ describe('isArrayish test', function() {
         })).to.be.false;
         expect(isArrayish({
             'length': 2
+        })).to.be.false;
+
+        // attention
+        expect(isArrayish({
+            'length': 3,
+            1: 'add'
         })).to.be.false;
 
         expect(isArrayish(new String('123'))).to.be.false;
