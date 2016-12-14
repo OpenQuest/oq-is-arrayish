@@ -1,6 +1,6 @@
 # oq-is-arrayish
 
-> check if an object can be used like an Array. 判断一个对象能否像数组一样使用，即是否为类数组对象
+> check if an object can be used like an Array. 判断一个对象能否像数组一样使用，即是否为数组或类数组对象
 
 ## INSTALL
 ```sh
