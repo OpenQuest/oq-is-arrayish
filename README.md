@@ -26,6 +26,8 @@ isArrayish(new String('123'));
 isArrayish(new String('abc'));
 isArrayish(new Number(123));
 
+isArrayish({'length': 3,1: 'add'}); // pay attention this's false
+
 // true
 isArrayish({length: 123,splice: function() {}});
 isArrayish({length: 3,0: 'a',1: 'b',2: 12});
