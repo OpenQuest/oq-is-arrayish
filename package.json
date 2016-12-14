@@ -1,6 +1,6 @@
 {
   "name": "oq-is-arrayish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "check if an object can be used like an Array. 判断一个对象能否像数组一样使用，即是否为数组或类数组对象",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,11 @@
     "type": "git",
     "url": "git+https://github.com/OpenQuest/oq-is-arrayish.git"
   },
-  "keywords": ["array-like", "javascript", "OpenQuest"],
+  "keywords": [
+    "array-like",
+    "javascript",
+    "OpenQuest"
+  ],
   "author": "lingshanjun",
   "license": "MIT",
   "bugs": {
